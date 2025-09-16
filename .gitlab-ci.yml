@@ -1,9 +1,0 @@
-stages:
-  - test
-
-test_job:
-  stage: test
-  image: python:3.10
-  script:
-    - echo "✅ Pipeline lancé avec succès"
-    - python --version
